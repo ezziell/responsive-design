@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+  font-size: 41.68%;
+}
+body{
+    background-color: rgb(63, 63, 63)
+}
+.todo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav, 
+.container, 
+.footer{
+    width: 100%;
+    min-width: 150px;
+}
+.todo .nav{
+    background-color: rgb(24, 24, 24);
+    width: 100%;
+    height: 56px;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    justify-content: center;
+}
+.nav ul li{
+    list-style: none;
+    color: white;
+    font-size: 3.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 22px;
+    margin-left: 22px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container section{
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 12px;
+}
+.container section h1{
+    color: rgb(214, 214, 214);
+}
+.container section p{
+    color: rgb(194, 194, 194);
+}
+.footer{
+    border-radius: 12px;
+    height: 40px;
+    width: 238px;    
+}
+.footer footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 12px;
+}
+.footer footer p{
+    font-size: 2.5rem;
+    padding: 6px;
+    color: rgb(226, 226, 226);
+    margin-top: 2px;  
+    margin-right: 12px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 8px;
+}
+.footer p:nth-child(2),
+.footer p:nth-child(3)
+{
+    background-color: rgb(138, 116, 88);
+    font-size: 2.5rem;
+    padding: 6px;
+    color: rgb(226, 226, 226);
+    margin-top: 2px;  
+    margin-right: 12px;
+    border-radius: 8px;
+}
+.container figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container section figure img{
+    margin-top: 22px;
+    height: 300px;
+    width: 300px;
+    border-radius: 12px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+}

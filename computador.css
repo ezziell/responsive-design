@@ -1,0 +1,17 @@
+.todo .nav{
+    background-color: rgb(24, 24, 24);
+    width: 100%;
+    height: 56px;
+}
+.container section figure img{
+    height: 400px;
+    width: 400px;
+}
+.container .images figure img{
+    display: flex;
+    flex-direction: row;
+}
+.images figure img{
+    display: flex;
+    flex-direction: row;
+}

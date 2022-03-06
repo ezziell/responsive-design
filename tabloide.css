@@ -1,0 +1,24 @@
+.todo .nav{
+    background-color: rgb(24, 24, 24);
+    width: 100%;
+    height: 56px;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.container .images figure{
+    display: flex;
+    flex-direction: row;
+}
+.container figure img{
+    margin-right: 22px;
+}
+.images .second{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    margin-top: 200px;
+}
